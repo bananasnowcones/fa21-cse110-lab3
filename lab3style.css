@@ -1,7 +1,20 @@
 /* all text color is white */
 * {
     color:aliceblue;
-    
+    font-family: 'GlegooBanner';
+}
+
+@font-face {
+    font-family: 'GlegooBanner';
+    src: url('../fonts/Glegoo-Regular.woff2') format('woff2'),
+         url('../fonts/Glegoo-Regular.woff') format('woff'),
+         url('../fonts/Glegoo-Regular.ttf') format('truetype');
+}
+
+@media (min-aspect-ratio: 8/5) {
+    div {
+      background: #9af; /* blue */
+    }
 }
 
 body {
@@ -9,10 +22,21 @@ body {
     font-size: 16px;
     margin: 0cm;
     padding: 0mm;
+    display: flex;
 }
 
 header {
     display: block;
+}
+
+body section {
+    height: 10px;
+    min-width: none;
+    max-width: fit-content;
+}
+
+h1 {
+    position: fixed;
 }
 
 h3 {
@@ -21,14 +45,48 @@ h3 {
     margin-left: 10px;
     margin-right: 5px;
 
-    padding-top: 1px;
     padding-bottom: 3px;
     padding-left: 2px;
     padding-right: 2px;
 }
+h1,h3 {
+    color:aquamarine;
+}
+
+h3:hover {
+    color:#e22777
+}
+
+a:active {
+    background-color: yellow;
+}
+
+[href]{
+    color: magenta;
+ }
 
 .bullet li {
-    font-size: 0.6em;
+    font-size: 0.9em;
+}
+
+section.Translation {
+    color:burlywood;
+}
+
+section > label {
+    color:chartreuse;
+}
+
+div + section {
+    padding-top: 1px;
+}
+
+div ~ p {
+    padding-top: 0px;
+}
+
+details {
+    position: static;
 }
 
 summary {
@@ -42,12 +100,14 @@ summary {
     border-color: #4CAF50;
     border-style: solid;
     border-radius: 30px;
+    width: auto;
 }
 
-p {
+#part2 {
     display: inline;
 }
 
-#footer-name {
+.footer {
     text-decoration: underline overline dotted #e22777;
+    display: block;
 }
