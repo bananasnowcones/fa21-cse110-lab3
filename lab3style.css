@@ -9,7 +9,6 @@ body {
     font-size: 16px;
     margin: 0cm;
     padding: 0mm;
-    border: 2px solid #4CAF50;
 }
 
 h3 {
@@ -28,10 +27,18 @@ h3 {
     font-size: 0.6em;
 }
 
-div p {
+summary {
     font-size: 125%;
 }
 
-form {
-    font-size: 1.1rem;
+#form-title {
+    margin: auto;
+    border-width: 2px;
+    border-color: #4CAF50;
+    border-style: solid;
+    border-radius: 30px;
+}
+
+#footer-name {
+    text-decoration: underline overline dotted #e22777;
 }
