@@ -11,6 +11,10 @@ body {
     padding: 0mm;
 }
 
+header {
+    display: block;
+}
+
 h3 {
     margin-top: 1px;
     margin-bottom: 2px;
@@ -38,6 +42,10 @@ summary {
     border-color: #4CAF50;
     border-style: solid;
     border-radius: 30px;
+}
+
+p {
+    display: inline;
 }
 
 #footer-name {
