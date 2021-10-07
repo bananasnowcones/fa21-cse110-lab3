@@ -1,10 +1,37 @@
+/* all text color is white */
+* {
+    color:aliceblue;
+    
+}
+
 body {
-    /* Old browsers */
-    background: #141E30;
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(-45deg, #35577D, #141E30);
-    margin: 0;
-    padding: 0;
-  }
+    background: #587bbd;
+    font-size: 16px;
+    margin: 0cm;
+    padding: 0mm;
+    border: 2px solid #4CAF50;
+}
+
+h3 {
+    margin-top: 1px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    margin-right: 5px;
+
+    padding-top: 1px;
+    padding-bottom: 3px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.bullet li {
+    font-size: 0.6em;
+}
+
+div p {
+    font-size: 125%;
+}
+
+form {
+    font-size: 1.1rem;
+}

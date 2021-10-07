@@ -5,12 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meeting Minutes</title>
+    <link href='lab3style.css' rel='stylesheet'>
     <link rel="icon" type="image/png" href="https://icons.iconarchive.com/icons/dakirby309/simply-styled/256/YouTube-icon.png">
 </head>
 
+<!--Inernal CSS because why not-->
+<style>
+    #form-title {
+        margin: auto;
+    }
+</style>
+
 <body>
     <main>
-        <h1><strong>Lecture 2 Notes</strong></h1>
+        <!--Disgusting inline CSS-->
+        <h1 style="text-align:center;"><strong>Lecture 2 Notes</strong></h1>
     </main>
 
     <header>
@@ -26,7 +35,7 @@
 
     <section>
         <h3 id="p1">Part 1 Lecture Notes</h3>      
-        <ol>
+        <ol class="bullet">
             <li>Know where you are at realistically</li>
             <li>People are big problems in programming projects</li>
             <li>10x programmers is unrealistic</li>
@@ -66,7 +75,7 @@
     <hr>
 
     <form action="submission.html" method="POST">
-        <h1>Bible Interest Form</h1>
+        <h1 id="form-title">Bible Interest Form</h1>
         <fieldset>
             <section class="Date">
                 <label for="bday">When's your birthday?</label>
