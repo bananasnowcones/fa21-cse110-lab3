@@ -22,11 +22,10 @@ body {
     font-size: 16px;
     margin: 0cm;
     padding: 0mm;
-    display: flex;
 }
 
 header {
-    display: block;
+    /display: block;
 }
 
 body section {
@@ -87,6 +86,7 @@ div ~ p {
 
 details {
     position: static;
+    display: flex;
 }
 
 summary {
