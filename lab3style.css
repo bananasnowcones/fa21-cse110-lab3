@@ -21,17 +21,17 @@ body {
     background: #1f3255;
     font-size: 16px;
     margin: 0cm;
-    padding: 0mm;
+    padding: 400mm;
 }
 
 header {
-    display: block;
+    /*display: block;*/
 }
 
 body section {
     height: 10px;
     min-width: none;
-    max-width: fit-content;
+    max-width: none;
 }
 
 h1 {
@@ -96,7 +96,7 @@ div ~ p {
 
 details {
     position: sticky;
-    display: flex;
+    /*display: flex;*/
 }
 
 summary {
