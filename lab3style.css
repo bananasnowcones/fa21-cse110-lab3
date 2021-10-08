@@ -87,16 +87,14 @@ div + section {
     margin-bottom: 10px;
 }
 
-/*
 div ~ p {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-*/
 
 details {
     position: sticky;
-    /*display: flex;*/
+    display: flex;
 }
 
 summary {
