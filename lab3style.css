@@ -30,6 +30,7 @@ p {
 
 h1 {
     position: static;
+    width: fit-content;
 }
 
 h3 {
