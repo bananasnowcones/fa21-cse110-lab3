@@ -14,11 +14,16 @@
       background: #9af; /* blue */
     }
 }
+
 body {
     background: #1f3255;
     font-size: 16px;
     margin: 0cm;
     padding: 0mm;
+}
+
+h1 {
+    position: static;
 }
 
 h3 {
