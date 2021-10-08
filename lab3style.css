@@ -22,6 +22,12 @@ body {
     padding: 0mm;
 }
 
+p {
+    min-width = 0px;
+    max-width = fit-content;
+    height = 10px;
+}
+
 h1 {
     position: static;
 }
