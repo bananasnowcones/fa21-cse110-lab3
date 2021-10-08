@@ -77,11 +77,11 @@ section > label {
 }
 
 div + section {
-    padding-top: 1px;
+    margin-top: 10px;
 }
 
 div ~ p {
-    padding-top: 0px;
+    margin-top: 10px;
 }
 
 details {
