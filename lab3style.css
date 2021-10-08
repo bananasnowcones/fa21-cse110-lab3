@@ -33,6 +33,19 @@ h3 {
     padding-right: 2px;
 }
 
+h1,h3 {
+    color:aquamarine;
+}
+h3:hover {
+    color:#e22777;
+}
+a:active {
+    background-color: yellow;
+}
+[href]{
+    color: magenta;
+}
+
 .bullet li {
     font-size: 0.6em;
 }
