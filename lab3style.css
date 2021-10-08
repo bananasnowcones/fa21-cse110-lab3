@@ -67,7 +67,7 @@ summary {
 }
 
 #form-title {
-    margin: auto;
+    text-align: center;
     border-width: 2px;
     border-color: #4CAF50;
     border-style: solid;
