@@ -20,8 +20,8 @@
 body {
     background: #1f3255;
     font-size: 16px;
-    margin: 2cm;
-    padding: 400mm;
+    margin: 0cm;
+    padding: 0mm;
 }
 
 header {
@@ -31,25 +31,23 @@ header {
 body section {
     height: 10px;
     min-width: none;
-    max-width: none;
+    max-width: fit-content;
 }
 
 h1 {
     position: fixed;
 }
 
-nav {
-    margin-top: 100px;
-    margin-bottom: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
+h3 {
+    margin-top: 1px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    margin-right: 5px;
 
     padding-bottom: 3px;
     padding-left: 2px;
     padding-right: 2px;
 }
-
-
 h1,h3 {
     color:aquamarine;
 }
@@ -70,10 +68,6 @@ a:active {
     font-size: 0.9em;
 }
 
-section {
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
 section.Translation {
     color:burlywood;
 }
@@ -84,16 +78,14 @@ section > label {
 
 div + section {
     margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 div ~ p {
     margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 details {
-    position: sticky;
+    position: static;
     display: flex;
 }
 
