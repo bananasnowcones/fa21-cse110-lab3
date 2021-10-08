@@ -20,7 +20,7 @@
 body {
     background: #1f3255;
     font-size: 16px;
-    margin: 0cm;
+    margin: 2cm;
     padding: 400mm;
 }
 
@@ -41,8 +41,8 @@ h1 {
 nav {
     margin-top: 100px;
     margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
 
     padding-bottom: 3px;
     padding-left: 2px;
